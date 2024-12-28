@@ -1,3 +1,3 @@
-module solana-bot
+module github.com/inggg-enddd/solana-bot
 
-go 1.22.3
+go 1.21
