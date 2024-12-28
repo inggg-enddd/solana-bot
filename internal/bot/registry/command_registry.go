@@ -3,8 +3,8 @@ package registry
 import (
 	"sync"
 
-	"github.com/your/project/internal/bot/domain"
-	"github.com/your/project/internal/bot/ports"
+	"github.com/inggg-enddd/solana-bot/internal/bot/domain"
+	"github.com/inggg-enddd/solana-bot/internal/bot/ports"
 )
 
 type CommandRegistry struct {

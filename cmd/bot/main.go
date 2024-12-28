@@ -3,11 +3,12 @@ package main
 import (
 	"context"
 	"log"
-	"solana-bot/internal/bot/domain"
 
-	"github.com/your/project/internal/bot/handlers"
-	"github.com/your/project/internal/bot/registry"
-	"github.com/your/project/internal/bot/service"
+	"github.com/inggg-enddd/solana-bot/internal/bot/domain"
+
+	"github.com/inggg-enddd/solana-bot/internal/bot/handlers"
+	"github.com/inggg-enddd/solana-bot/internal/bot/registry"
+	"github.com/inggg-enddd/solana-bot/internal/bot/service"
 )
 
 func main() {

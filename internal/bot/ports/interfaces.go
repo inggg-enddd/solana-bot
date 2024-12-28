@@ -3,7 +3,7 @@ package ports
 import (
 	"context"
 
-	"github.com/your/project/internal/bot/domain"
+	"github.com/inggg-enddd/solana-bot/internal/bot/domain"
 )
 
 // MessageHandler 定义消息处理器接口

@@ -3,7 +3,7 @@ package handlers
 import (
 	"context"
 
-	"github.com/your/project/internal/bot/domain"
+	"github.com/inggg-enddd/solana-bot/internal/bot/domain"
 )
 
 type StartHandler struct {
@@ -14,7 +14,7 @@ func NewStartHandler() *StartHandler {
 	return &StartHandler{}
 }
 
-func (h *StartHandler) Handle(ctx context.Context, msg *domain.BotMessage) (*domain.BotResponse, error) {
+func (h *StartHandler) Handle(_ context.Context, msg *domain.BotMessage) (*domain.BotResponse, error) {
 	return &domain.BotResponse{
 		ChatID: msg.ChatID,
 		Text: "欢迎使用 Solana 交易执行系统!\n" +
