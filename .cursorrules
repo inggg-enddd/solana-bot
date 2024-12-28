@@ -1,0 +1,30 @@
+# Project: Solana Monitor System
+
+## Coding Standards
+- Use Golang for all new code
+- Use proper Golang types for all variables and functions
+
+## Style Guidelines
+- Follow "Effective Go"'s Style Guide
+- Use tabs for indentation
+- Max line length: 100 characters
+
+## Best Practices
+- Follow "Effective Go"'s Best Practices
+- Use interfaces for complex types
+- Use code.<Module>.<ErrorType>.<WithXXX()> for custom error codes
+
+## Dependencies
+- Prefer GIN for web framework
+- Prefer Redis for caching
+- Prefer PostgreSQL for database
+
+## Testing
+- Write unit tests for all new functions and components
+- Aim for at least 80% test coverage
+- Prefer gomonkey and testify for mocking and assertions
+
+## Documentation
+- Write concise comments for all new functions and components
+
+Remember to consider accessibility and performance in all new features.
